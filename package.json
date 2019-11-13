@@ -1,17 +1,16 @@
 {
-  "name": "node-easy-cert",
-  "version": "1.3.1",
+  "name": "node-easy-cert-fix",
+  "version": "1.3.2",
   "description": "A tool for managing self-signed certifications",
   "main": "dist/index.js",
   "scripts": {
-    "test": "sh test/test.sh",
     "lint": "eslint ./src",
     "build": "npm run lint && node gulpfile.js",
     "prepublish": "npm run build && npm run test"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ottomao/node-easy-cert"
+    "url": "https://github.com/silentcloud/node-easy-cert"
   },
   "keywords": [
     "certification",
@@ -40,6 +39,7 @@
     "eslint-plugin-promise": "^3.8.0",
     "eslint-plugin-standard": "^3.1.0",
     "gulp": "^3.9.1",
-    "gulp-babel": "^7.0.0"
+    "gulp-babel": "^7.0.0",
+    "jasmine": "^3.5.0"
   }
 }
